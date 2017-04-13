@@ -1,0 +1,13 @@
+body {
+    text-align: justify;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.box {
+    margin-top: 1.61em;
+    margin-bottom: 1.61em;
+}
