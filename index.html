@@ -8,26 +8,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bulma.css">
     <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" type="image/png" href="img/sonic.gif" />
 </head>
 
 <body>
     <header>
-
-
-        <nav class="nav">
+        <nav id="fixed" class="nav">
             <div class="nav-left">
-                <a class="nav-item">
-                    <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+                <a href="index.html" class="nav-item">
+                    <img src="img/avatar.jpg" alt="Bulma logo">
                 </a>
             </div>
 
             <div class="nav-center">
-                <a class="nav-item">
+                <a href="https://github.com/MickaelGable/Coda" class="nav-item">
                     <span class="icon">
         <i class="fa fa-github"></i>
       </span>
                 </a>
-                <a class="nav-item">
+                <a href="https://www.linkedin.com/in/micka%C3%ABl-gable-9a688b136/" class="nav-item">
                     <span class="icon">
         <i class="fa fa-linkedin"></i>
       </span>
@@ -45,24 +44,24 @@
             <!-- This "nav-menu" is hidden on mobile -->
             <!-- Add the modifier "is-active" to display it on mobile -->
             <div id="nav-menu" class="nav-right nav-menu">
-                <a class="nav-item">
+                <a href="#veille" class="nav-item">
       Veille Numérique
     </a>
-                <a class="nav-item">
+                <a href="#navigateurs" class="nav-item">
       Navigateurs
     </a>
-                <a class="nav-item">
+                <a href="#editeurs" class="nav-item">
       Editeurs de Textes
     </a>
-                <a class="nav-item">
+                <a href="#conclusion" class="nav-item">
       Conclusion
     </a>
-
             </div>
         </nav>
     </header>
+
     <main>
-        <section class="hero is-primary is-bold">
+        <section id="position" class="hero is-primary is-bold">
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title">
@@ -71,13 +70,14 @@
                 </div>
             </div>
         </section>
+
         <div class="columns">
             <div class="column is-offset-2 is-two-thirds">
                 <div class="box">
                     <div class="content">
                         <p>Salut les Codeuses, Codeurs, Pour ce qui me connaisse pas, je suis un ancien élève de la 1er promo, et j’ai eu envie de vous filer quelques trucs qui peut-être sympa pour vous et vos débuts dans le développement web et mobile.
                         </p>
-                        <h2>Veille Numérique</h2>
+                        <h2 id="veille">Veille Numérique</h2>
                         <p>Je vais commencer par la veille numérique ! Pour ceux qui ne connaîssent pas ce terme, il s’agit tout simplement de rester attentif aux dernières nouveautés en matière de numérique et/ou technologie, et au final, d’éveiller sa
                             curiosité, dans un domaine en perpétuel mouvement.</p>
 
@@ -92,8 +92,7 @@
                             <li><a href="http://alternativeto.net/">Alternative.to</a></li>
                         </ul>
 
-
-                        <h2>Navigateurs Web</h2>
+                        <h2 id="navigateurs">Navigateurs Web</h2>
                         <p>Parlant maintenant un petit peu des navigateurs WEB ! Comme vous avez dû le constater <em>(rhétorique)</em>, il n’existe pas seulement Google Chrome, Internet Explorer ou Firefox. En réalité, il existe autant de navigateur, que
                             de client exigeant pouvoir naviguer de telle ou telle façon. </p>
 
@@ -116,7 +115,7 @@
                         <blockquote>Je vais m’arrêter ici pour les navigateurs. Vous l’aurez compris il s’agit là d’une sélection des plus utilisés, et surtout de ce que j’ai utilisé. Je me vois mal vous faire un exposé sur un soft que je connais mal, voire pas du
                             tout. Il ne tient qu’à vous de chercher les alternatives intéressante et innovante selon vos critères de recherche ;-) </blockquote>
 
-                        <h2>Les éditeurs de texte</h2>
+                        <h2 id="editeurs">Les éditeurs de texte</h2>
                         <p>Un point sur les éditeurs de texte : ici aussi je vais vous faire une sélection, il s’agit pour les trois que je vous propose, de logiciel Open-Source et gratuit. Donc tout ce qui est Dreamweaver, les logiciels Jetbrains, et autres
                             que je ne connais pas. </p>
 
@@ -138,14 +137,30 @@
                             <p>Il s’agit d'une page Web réalisée part meg4r0m, qui nous fait un petit inventaire de bonne trouvaille pour customiser votre éditeur. Certain d’eux se retrouve aussi du côté de Bracket et Visual, parfois avec un autre intitulé.</p>
                         </blockquote>
                         <em>Il est évident que ces listes que je vous propose, sont totalement exhaustif, que ce soit par mes préférences, ou par mes expériences.</em>
-                        <h2>Conclusion</h2>
 
+                        <h2 id="conclusion">Conclusion</h2>
                         <p>Voilà voilà, c’est tout pour le moment, j’espère que ça vous filera un coup de pouce, et vous souhaite de vous éclater dans le beau métier de dev Web et mobile.</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+
+    <div class="gotop">
+        <a href="#top" class="#top button is-light" style="display: block;"><img class="resize-arrow" src="img/arrow.png" alt="top"></a>
+    </div>
+
+    <section class="hero is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Goodbye World
+                </h1>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
@@ -162,9 +177,8 @@
         </div>
     </footer>
 
-    <script src="js/jquery-2.2.0.min.js"></script>
-    <script src="js/bulma.js"></script>
-
+    <script src="js/jquery-2.2.0.min.js "></script>
+    <script src="js/bulma.js "></script>
 
 </body>
 
